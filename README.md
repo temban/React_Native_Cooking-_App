@@ -392,6 +392,7 @@ export function UserPreferencesProvider({ children }: { children: ReactNode }) {
 **🔍 State Update Pattern:**
 ```typescript
 setPreferences(prev => ({ ...prev, [key]: value }));
+
 ```
 - `prev` - Current state
 - `...prev` - Copy all existing properties
